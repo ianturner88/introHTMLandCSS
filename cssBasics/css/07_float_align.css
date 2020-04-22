@@ -1,0 +1,36 @@
+.container {
+  /* max-width ensures all text is on the screen regardless of size */
+  max-width: 960px;
+  /* centers the text & creates a buffer from the top */
+  margin: 300px auto;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.4em;
+}
+
+.box {
+  background: #f4f4f4;
+  border: 1px solid #333;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.box p {
+  /* text align property */
+  /* left justifies text */
+  text-align: left;
+  /* centers text */
+  text-align: center;
+}
+
+.box-2 {
+  float: left;
+  width: 70%;
+}
+
+.box-3 {
+  float: right;
+  width: 30%;
+}
