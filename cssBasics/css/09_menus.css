@@ -1,0 +1,60 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.side-menu {
+  /* gets rid of the bullets in the navigation menu */
+  list-style: none;
+  border: 1px #ddd solid;
+  border-radius: 10px;
+  width: 300px;
+  /* default is 40px on the left-side */
+  padding: 20px;
+}
+
+.side-menu li {
+  /* default font size is 16px */
+  font-size: 18px;
+  line-height: 2.4em;
+  border-bottom: dotted 1px #ddd;
+}
+
+.side-menu li:last-child {
+  /* ensures last item (Contact) isn't underlined */
+  border: none;
+}
+
+.side-menu li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.side-menu li a:hover {
+  color: coral;
+}
+
+.navbar {
+  /* styles the background */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #4c6ca0;
+  border-radius: 4px;
+  overflow: auto;
+}
+
+.navbar li {
+  /* floats the items to the left */
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 20px;
+}
+
+.navbar li a:hover {
+  background-color: #441690;
+}
