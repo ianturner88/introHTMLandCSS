@@ -1,0 +1,40 @@
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+/* Methods to move the boxes: 
+Static, Relative, Absolute, Fixed, Sticky */
+
+/* absolute is when you place something on 
+the screen within the confines of a container */
+
+/* z-index is used to determine which item is 
+placed on top of the other if 2 items
+overlap */
+
+#box-1 {
+  position: relative;
+  top: 50px;
+  left: 50px;
+  background: red;
+}
+
+#box-2 {
+  background: blueviolet;
+}
+
+#box-3 {
+  background: greenyellow;
+}
+
+#box-4 {
+  position: fixed;
+  background: pink;
+}
+
+#box-5 {
+  /* ensures the item always stays at the top */
+  position: sticky;
+  background: orange;
+}
