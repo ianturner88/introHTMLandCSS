@@ -1,0 +1,36 @@
+a {
+  /* when the page is initially loaded */
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  /* for when the users hovers over the link */
+  color: coral;
+  text-decoration: underline;
+}
+
+a:visited {
+  /* indicates the site has been visited */
+  color: red;
+}
+
+a:active {
+  /* for when the user is clicking on the link */
+  color: red;
+}
+
+.btn {
+  background: #4c6ca0;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bth:hover {
+  color: #f4f4f4;
+  background: #446190;
+}
