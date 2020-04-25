@@ -1,0 +1,15 @@
+.header {
+  display: grid;
+  background: black;
+  color: whitesmoke;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-size: larger;
+  grid-template-columns: 5fr 1fr 1fr 1fr;
+  height: 50px;
+  align-items: center;
+}
+
+.logo {
+  text-align: center;
+}
