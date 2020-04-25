@@ -1,15 +1,50 @@
-.header {
-  display: grid;
-  background: black;
-  color: whitesmoke;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: bolder;
-  font-size: larger;
-  grid-template-columns: 5fr 1fr 1fr 1fr;
-  height: 50px;
-  align-items: center;
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.logo {
-  text-align: center;
+/* Main styling */
+html,
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  line-height: 1.7em;
+}
+
+a {
+  /* the hyperlinks */
+  color: #333;
+  /* ensures the hyperlinks aren't underlined */
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px, 0;
+}
+
+/* Nav bar */
+#navbar {
+  background: #333;
+  /* text colour -> doesn't apply to links */
+  color: #fff;
+  /* ensures nothing overrules background */
+  overflow: auto;
+}
+
+#navbar a {
+  /* colours the links white */
+  color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
 }
