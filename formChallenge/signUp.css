@@ -2,20 +2,6 @@
   font-family: "Courier New", Courier, monospace;
 }
 
-.container {
-  padding-top: 20%;
-  background: white;
-  border: 2px red solid;
-  padding: 5%;
-  margin: 10%;
-  border-radius: 20px;
-  text-align: center;
-}
-
-body {
-  background: blue;
-}
-
 .signUp {
   font-size: xx-large;
 }
@@ -30,4 +16,34 @@ body {
   border-radius: 20px;
   color: whitesmoke;
   font-weight: bolder;
+}
+
+.inputInformation {
+  text-align: left;
+}
+
+.confirm {
+  font-size: x-large;
+}
+
+.container {
+  padding-top: 20%;
+  background: white;
+  border: 2px red solid;
+  padding: 5%;
+  margin: 10%;
+  border-radius: 20px;
+  text-align: center;
+  position: absolute;
+  top: 0px;
+  max-width: 960px;
+  width: 20px;
+}
+
+body {
+  background: blue;
+  margin: 20%;
+
+  margin: 30px auto;
+  max-width: 200px;
 }
