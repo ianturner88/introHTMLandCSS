@@ -30,6 +30,13 @@ p {
   margin: 10px, 0;
 }
 
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
 /* Nav bar */
 #navbar {
   background: #333;
@@ -47,4 +54,30 @@ p {
 #navbar h1 {
   float: left;
   padding-top: 20px;
+}
+
+#navbar ul {
+  /* gets rid of the bullet points */
+  list-style: none;
+  /* forces  */
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  /* creates spacing between the words */
+  padding: 20px;
+  /* centers all the words */
+  text-align: center;
+}
+
+#navbar ul li a:hover {
+  /* creates hover effect */
+  background: #444;
+  /* words are coloured when hovered over */
+  color: #f7c08a;
 }
