@@ -1,0 +1,13 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 70% 10% 10% 10%;
+  padding-left: 5%;
+  padding-top: 2%;
+}
